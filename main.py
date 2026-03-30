@@ -141,11 +141,6 @@ async def replace(interaction: discord.Interaction, player_ign: str, new_player_
      save_lb()
      await interaction.followup.send(f"Successfully replaced {player_ign} with {new_player_ign}", ephemeral=True)
     
-def local_replace(old, new):
-    r = lb.index(old)
-    lb[old] = new
-    save_lb()
-    
 @bot.tree.command(name="result", description="Post a comp match result")
 @commands.has_permissions(manage_guild=True)
 async def pr(interaction: discord.Interaction, player1: str, player2: str, score: str):
