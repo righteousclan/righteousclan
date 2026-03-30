@@ -21,6 +21,6 @@ The discord bot for Righteous Clan
 ## For nerds
 The leaderboard is stored in a JSON file (`lb.json`) because a whole ass database would've been unnecessary af
 
-Fastapi app exists because the bot is deployed as a web service on render coz I'm broke to purchase a background worker (tho other hosts exist that allow bot deployment without requiring a web service but eh who cares, render gets the job done)
+the Fastapi app in the code exists because the bot is deployed as a web service on render where the bot is a asyncio task coz I'm broke to purchase render's background worker (tho other hosts exist that allow bot deployment without requiring a web service but eh who cares, render gets the job done)
 
 
