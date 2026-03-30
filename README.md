@@ -18,6 +18,11 @@ The discord bot for Righteous Clan
 
 `/result <player1> <player2> <score>` - Posts comp fight result in an embed in the `#comp-results` channel with stuff like total matches, each player's wins, win percentage of each player and the winner which is automatically detected from the provided score
 
+Score must be in these formats only:
+`10-14`
+`5-9`
+`12-20`
+
 ## For nerds
 The leaderboard is stored in a JSON file (`lb.json`) because a whole ass database would've been unnecessary af
 
