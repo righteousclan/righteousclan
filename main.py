@@ -11,7 +11,9 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return
+    return {
+		"status": "alive"
+	}
     
 @app.on_event("startup")
 async def start_bot():
