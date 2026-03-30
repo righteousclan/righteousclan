@@ -5,7 +5,7 @@ import fastapi
 import asyncio
 import os
 
-BOT_TOKEN = os.getenv(BOT_TOKEN)
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 app = FastAPI()
 
