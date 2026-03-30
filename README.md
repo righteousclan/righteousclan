@@ -23,4 +23,5 @@ The leaderboard is stored in a JSON file (`lb.json`) because a whole ass databas
 
 the Fastapi app in the code exists because the bot is deployed as a web service on render where the bot is a asyncio task coz I'm broke to purchase render's background worker (tho other hosts exist that allow bot deployment without requiring a web service but eh who cares, render gets the job done)
 
+took 5 hours to make smh ✌️💔
 
