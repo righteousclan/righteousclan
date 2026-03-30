@@ -72,7 +72,7 @@ async def leaderboard(interaction: discord.Interaction):
    for position, player in enumerate(lb):
        embed.add_field(name=emojis[position+1], value=f"**{player}**")
 
-   if len(lb) < 10:
+   if len(lb) < 10 and lb:
        unclaimed = 10 - len(lb)
        for r in range(len(lb) + 1, 11):
            embed.add_field(name=emojis[r], value="Unclaimed")
