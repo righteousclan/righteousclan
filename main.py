@@ -175,8 +175,7 @@ async def pr(interaction: discord.Interaction, player1: str, player2: str, score
     await channel.send(embed=embed)
     await interaction.followup.send("Succesfully posted results in <#1488144108550750389>")
              
-             
-bot.run(BOT_TOKEN)
+            
     
     
 
