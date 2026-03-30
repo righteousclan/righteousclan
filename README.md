@@ -28,4 +28,5 @@ AGPL, view the [LICENSE](LICENSE) file
 
 took 5 hours to make smh ✌️💔
 
+## ???
 [???](https://raw.githubusercontent.com/righteousclan/Righteous-Clan/refs/heads/main/_.jpg) 👈👀
