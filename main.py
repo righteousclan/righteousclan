@@ -154,8 +154,8 @@ async def pr(interaction: discord.Interaction, player1: str, player2: str, score
     channel = await bot.fetch_channel(1488144108550750389)
     desc = f"""
      **Total matches**: {player1_score+player2_score}
-**{player1}** score: {player1_score} ({round((player1_score/player1_score+player2_score)*100)}%)
-**{player2}** score: {player2_score} ({round((player2_score/player1_score+player2_score)*100)}%)
+**{player1}** score: {player1_score} ({round((player1_score/(player1_score+player2_score))*100)}%)
+**{player2}** score: {player2_score} ({round((player2_score/(player1_score+player2_score))*100)}%)
        
 **Winner 🏆**: **{player1 if player1_score > player2_score else player2}** (by +{player1_score - player2_score if player1_score > player2_score else player2_score - player1_score})
      """
