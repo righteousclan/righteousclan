@@ -4,6 +4,7 @@ The discord bot for Righteous Clan
 ## Commands
 ### Public
 `/leaderboard` - sends the comp leaderboard
+
 ... yeah only one public command 💀
 
 ## Private (mod only)
