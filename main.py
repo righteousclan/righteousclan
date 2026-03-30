@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import json
-import fastapi
+from fastapi import FastAPI
 import asyncio
 import os
 
