@@ -146,7 +146,7 @@ async def replace(interaction: discord.Interaction, player_ign: str, new_player_
 @bot.tree.command(name="result", description="Post a comp match result")
 @commands.has_permissions(manage_guild=True)
 async def pr(interaction: discord.Interaction, player1: str, player2: str, score: str):
-    await interaction.response.defer()
+    await interaction.response.defer(ephemeral=True)
     try:
         player1_score, player2_score = tuple(score.split("-"))
         player1_score, player2_score = int(player1_score), int(player2_score) 
